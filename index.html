@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Speed</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+
+<body>
+
+	<nav>
+	<div class="wrap">
+		
+	
+		<div class="flex jcsb">
+			<div class="one">
+
+			<a href="index.html">	<img class="logo" src="images/logo.png"> </a>
+				
+			</div>
+			<div class="two">
+					<h2>Video Speed</h2>
+			</div>
+
+			<!-- <div class="three">
+				<h3>About</h3>
+			</div> -->
+		</div>	
+	</div>
+</nav>
+
+<!-- End of TopNav -->
+
+
+<section class="one">
+	<div class="wrap">
+
+
+
+	<!-- 	<button class="nextbutton" id="showButton" onclick="openSame()">Try Next Image</button>
+ -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<video id="showvideoplayer" style="display: none;" width="60%" height="50%" controls>
+  <source src="" id="video_here">
+  
+</video>
+
+<input id="inputbar" onclick="showvid()" type="file" name="file[]" class="file_multi_video" accept="video/*">
+
+<br>
+<br>
+<br>
+
+		<!-- <div>
+			<button onclick="setPlaySpeed2x()">2x</button>
+		</div> -->
+		<div style="display: none;" id="speedChanger">
+			<p>Select below to change the playback speed:</p>
+			<select id="select_speed" >
+				
+					<option value="select">Select:</option>
+					<option value="slow">0.5x</option>
+					<option value="two">2x</option>
+					<option value="four">4x</option>
+					<option value="eight">8x</option>
+					<option value="sixteen">16x</option>
+					
+				
+			</select>
+
+			<button type="button" onclick="change_speed()">Change</button>
+			
+		</div>
+		<!-- <div>
+			<button onclick="setPlaySpeed4x()">4x</button>
+		</div> -->
+	</div>
+	<br>
+	<br>
+	<br>
+	
+				
+			
+
+
+</section>
+
+<script src="script.js"></script>
+
+
+</body>
+
+<footer >
+	<h3>&#169; Roshan Bhandari</h3>
+</footer>
+</html>
