@@ -146,20 +146,40 @@ section .text{
 	height: 50px;
 	margin-left: 35%;
 }
-
+/*
 @media (max-width: 1150px) {
    .fig1{
    	margin-left: 3%;
     width: 800px;
     height: 400px;
-}
+}*/
 
 .video1{
-  margin-left: 15%;
-  margin-top: 20%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
 
-section .inputbar_bar{
+/*section .inputbar_bar{
  margin-left: 300px;
 
+}*/
+
+#changeButton {
+  width: 10%;
+  height: 10%;
+
+
+}
+#downloadButton{
+  width: 15%;
+  height: 10%;
+/*  color: blue;*/
+background-color: red;
+border-radius: 5px;
+box-shadow: 10px;
+border-image: unset;
+}
+
+#speedChanger{
+  margin-left: 25%;
 }

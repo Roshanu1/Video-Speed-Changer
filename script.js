@@ -37,3 +37,9 @@ function change_speed() {
     raw_video.playbackRate = 16.0;
   }
 } 
+
+
+function downloader() {
+  alert("The download feature will be available soon. For now just enjoy changing your video's speed.")
+  
+}

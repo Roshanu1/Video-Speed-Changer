@@ -43,13 +43,13 @@
  -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<video class="video1" id="showvideoplayer" style="display: none; " width="80%"  controls>
+<video class="video1" id="showvideoplayer" style="display: none; " width="60%"  controls>
   <source src="" id="video_here">
 
   
 </video>
 <div class="input_bar">
-<input style="margin-left: 50%; margin-top: 40%; " id="inputbar" onclick="showvid()" type="file" name="file[]" class="file_multi_video" accept="video/*">
+<input style="margin-left: 50%; margin-top: 20%; " id="inputbar" onclick="showvid()" type="file" name="file[]" class="file_multi_video" accept="video/*">
 </div>
 <br>
 <br>
@@ -72,12 +72,14 @@
 				
 			</select>
 
-			<button type="button" onclick="change_speed()">Change</button>
+			<button id="changeButton" type="button" onclick="change_speed()">Change</button>
+			<br>
+			<br>
+			<button id="downloadButton" onclick="downloader()">Download</button>
+		</div>
+		<div>
 			
 		</div>
-		<!-- <div>
-			<button onclick="setPlaySpeed4x()">4x</button>
-		</div> -->
 	</div>
 	<br>
 	<br>
