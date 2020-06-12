@@ -17,7 +17,7 @@
 		<div class="flex jcsb">
 			<div class="one">
 
-			<a href="index.html">	<h2>Video Speed</h2> </a>
+				<h2 style="cursor: pointer;" onclick="openSame()">Video Speed</h2> 
 				
 			</div>
 			<!-- <div class="two">
@@ -43,13 +43,14 @@
  -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<video id="showvideoplayer" style="display: none;" width="60%" height="50%" controls>
+<video class="video1" id="showvideoplayer" style="display: none; " width="80%"  controls>
   <source src="" id="video_here">
+
   
 </video>
-
-<input id="inputbar" onclick="showvid()" type="file" name="file[]" class="file_multi_video" accept="video/*">
-
+<div class="input_bar">
+<input style="margin-left: 50%; margin-top: 40%; " id="inputbar" onclick="showvid()" type="file" name="file[]" class="file_multi_video" accept="video/*">
+</div>
 <br>
 <br>
 <br>
@@ -89,7 +90,12 @@
 </section>
 
 <script src="script.js"></script>
+<script >
+	function openSame() {
 
+		window.location.replace("index.html")
+	}
+</script>
 
 </body>
 

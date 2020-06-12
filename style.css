@@ -5,7 +5,7 @@
 }*/
 
 nav{
-	background-color: #3b5998; 
+	background-color: black; 
 	width: 100vw;
  	position: relative;
  	margin-left: -50vw;
@@ -68,15 +68,16 @@ nav .flex i {
 nav .one {
 	padding-right: 10%;
 	padding-left: 10%;
+  margin-left: 50%;
 }
-nav .two{
+/*nav .two{
 	margin-left: 25%;
 
-}
-nav .three{
+}*/
+/*nav .three{
 	margin-left: 25%;
 	padding-right: 5%;
-}
+}*/
 
 nav h2, h3{
 	color: white;
@@ -151,4 +152,14 @@ section .text{
    	margin-left: 3%;
     width: 800px;
     height: 400px;
+}
+
+.video1{
+  margin-left: 15%;
+  margin-top: 20%;
+}
+
+section .inputbar_bar{
+ margin-left: 300px;
+
 }

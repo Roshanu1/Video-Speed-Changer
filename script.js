@@ -21,6 +21,8 @@ function change_speed() {
   console.log(x);
   if (x == 'slow') {
     raw_video.playbackRate = 0.5;
+    // document.getElementsByClassName("showvideoplayer")[0].src = "video.mp4";
+   
   }
   else if (x == 'two') {
     raw_video.playbackRate = 2.0;
